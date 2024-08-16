@@ -9,4 +9,8 @@ ORDER BY ENTRANCE_DATE ASC;
 
 -----------------------------------------
 /*2번*/
-			
+SELECT 
+	PROFESSOR_NAME
+	PROFESSOR_SSN
+FROM TB_PROFESSOR
+WHERE LENGTH(PROFESSOR_NAME) ;
